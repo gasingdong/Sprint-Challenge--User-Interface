@@ -179,48 +179,6 @@ header nav a {
     width: 96%;
 }
 
-/*Box Background Colors*/
-
-#box1 {
-    background: teal;
-}
-
-#box2 {
-    background: gold;
-}
-
-#box3 {
-    background: cadetblue;
-}
-
-#box4 {
-    background: coral;
-}
-
-#box5 {
-    background: crimson;
-}
-
-#box6 {
-    background: forestgreen;
-}
-
-#box7 {
-    background: darkorchid;
-}
-
-#box8 {
-    background: hotpink;
-}
-
-#box9 {
-    background: indigo;
-}
-
-#box10 {
-    background: dodgerblue;
-}
-
 /*For the blocks on the about page content*/
 
 .content-block {
@@ -264,4 +222,46 @@ header nav a {
 
 .bottom-content-about {
     margin-bottom: 40px;
+}
+
+/*Box Background Colors*/
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
