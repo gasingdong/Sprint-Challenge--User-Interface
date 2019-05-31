@@ -148,6 +148,7 @@ footer nav a {
 /*=================MY CODE STARTS HERE=============================*/
 
 /*Header*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -166,6 +167,11 @@ header nav a {
     color: black;
     padding-right: 65px;
     font-size:
+}
+
+/*To accommodate for a longer width*/
+.top-content .long-text-container {
+    width: 96%;
 }
 
 /*Box Background Colors*/
@@ -210,3 +216,26 @@ header nav a {
     background: dodgerblue;
 }
 
+/*For the blocks on the about page content*/
+
+.content-block {
+    width: 45%;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.content-block img {
+    width: 100%;
+}
+
+.content-block button {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.middle-content-about {
+    border: 0;
+}
