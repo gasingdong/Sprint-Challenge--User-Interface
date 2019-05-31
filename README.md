@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-It's the use of HTML tags with clear, standardized, and concise meaning for better understanding of the code and SEO purposes, such as <section></section> to denote a section or <h1></h1> to denote a first-level header.
+It's the use of HTML tags with clear, standardized, and concise meaning for better understanding of the code and SEO purposes, such as ```<section></section>``` to denote a section or ```<h1></h1>``` to denote a first-level header.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
