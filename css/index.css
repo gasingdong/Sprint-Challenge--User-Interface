@@ -147,6 +147,27 @@ footer nav a {
 
 /*=================MY CODE STARTS HERE=============================*/
 
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-flow: row  wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-img {
+    margin-top: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 65px;
+    font-size:
+}
+
 /*Box Background Colors*/
 
 #box1 {
