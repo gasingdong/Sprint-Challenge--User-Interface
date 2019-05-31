@@ -170,7 +170,12 @@ header nav a {
 }
 
 /*To accommodate for a longer width on the about page text*/
+
 .top-content .long-text-container {
+    width: 96%;
+}
+
+.bottom-content .long-text-container {
     width: 96%;
 }
 
@@ -221,7 +226,7 @@ header nav a {
 .content-block {
     width: 45%;
     padding: 20px 0;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     border-bottom: 1px dashed black;
 }
 
@@ -250,6 +255,13 @@ header nav a {
 }
 
 /*Remove the bottom border on the about page content div*/
+
 .middle-content-about {
     border: 0;
+}
+
+/*Add some more margin to the bottom of the about content*/
+
+.bottom-content-about {
+    margin-bottom: 40px;
 }
