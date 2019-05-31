@@ -191,7 +191,7 @@ header nav a {
     width: 100%;
 }
 
-.content-block button {
+.content-block button, input[type=submit] {
     width: 40%;
     padding: 10px;
     font-size: 18px;
@@ -280,4 +280,13 @@ nav a:hover {
     animation-name: hover-disappear;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+}
+
+/*Contact forms*/
+
+.middle-content form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    margin: 40px;
 }
