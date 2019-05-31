@@ -144,3 +144,149 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*=================MY CODE STARTS HERE=============================*/
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-flow: row  wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-img {
+    margin-top: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 65px;
+}
+
+/*To accommodate for a longer width on the about page text*/
+
+.top-content .long-text-container {
+    width: 96%;
+}
+
+.bottom-content .long-text-container {
+    width: 96%;
+}
+
+/*For the blocks on the about page content*/
+
+.content-block {
+    width: 45%;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.content-block img {
+    width: 100%;
+}
+
+.content-block button, input[type=submit] {
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.content-block h2 {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.content-block p {
+    margin-top: 10px;
+}
+
+/*Remove the bottom border on the about page content div*/
+
+.middle-content-about {
+    border: 0;
+}
+
+/*Add some more margin to the bottom of the about content*/
+
+.bottom-content-about {
+    margin-bottom: 40px;
+}
+
+/*Box Background Colors*/
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+/*Translucent nav links on hover*/
+
+@keyframes hover-disappear {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+nav a:hover {
+    animation-name: hover-disappear;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+/*Contact forms*/
+
+.middle-content form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    margin: 40px;
+}
