@@ -169,7 +169,7 @@ header nav a {
     font-size:
 }
 
-/*To accommodate for a longer width*/
+/*To accommodate for a longer width on the about page text*/
 .top-content .long-text-container {
     width: 96%;
 }
@@ -220,7 +220,8 @@ header nav a {
 
 .content-block {
     width: 45%;
-    padding: 20px;
+    padding: 20px 0;
+    margin-bottom: 40px;
     border-bottom: 1px dashed black;
 }
 
@@ -229,13 +230,26 @@ header nav a {
 }
 
 .content-block button {
+    width: 40%;
     padding: 10px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     background: none;
     border-radius: 10px;
     border: 1px solid black;
+    margin-top: 20px;
 }
 
+.content-block h2 {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.content-block p {
+    margin-top: 10px;
+}
+
+/*Remove the bottom border on the about page content div*/
 .middle-content-about {
     border: 0;
 }
